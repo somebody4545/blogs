@@ -1,7 +1,7 @@
 # Setup
-title: Noir
+title: Somebody4545
 tagline: a dark mode friendly Jekyll theme
-url: https://noir.essentialenemy.com
+url: https://test.somebody4545.tk
 paginate: 1
 baseurl: ""
 permalink: :title/
@@ -37,11 +37,7 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Victor Johnson
-  url: https://twitter.com/essentialenemy
-  email: me@essentialenemy.com
+  name: Somebody4545
+  url: https://github.com/somebody4545
 
 # Custom vars
-version: 1.3.0
-github:
-  repo: https://github.com/essentialenemy/noir
