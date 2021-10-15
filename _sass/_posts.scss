@@ -81,6 +81,9 @@ figure {
 @media (prefers-color-scheme: dark) {
   color: $body-color-dark;
   }
+@media (prefers-color-scheme: light) {
+  color: $body-color-dark;
+  }
 }
 
 .page-title,
@@ -98,6 +101,9 @@ figure {
 @media (prefers-color-scheme: dark) {
   color: $body-color-dark;
   }
+@media (prefers-color-scheme: light) {
+  color: $body-color-dark;
+  }
 }
 
 .permalink {
@@ -108,6 +114,9 @@ figure {
   color: $body-color;
   
 @media (prefers-color-scheme: dark) {
+  color: $body-color-dark;
+  }
+@media (prefers-color-scheme: light) {
   color: $body-color-dark;
   }
 }
@@ -123,6 +132,9 @@ figure {
 @media (prefers-color-scheme: dark) {
   color: $body-color-dark;
   }
+@media (prefers-color-scheme: light) {
+  color: $body-color-dark;
+  }
 }
 
 .tag-list {
@@ -135,6 +147,9 @@ figure {
   @media (prefers-color-scheme: dark) {
 	color: $code-dark;
 	}
+  @media (prefers-color-scheme: light) {
+    color: $code-dark;
+    }
 }
 
 // Related posts
@@ -146,6 +161,10 @@ figure {
   border-bottom: 1px solid #d4d4d4;
   
 @media (prefers-color-scheme: dark) {
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  }
+@media (prefers-color-scheme: light) {
   border-top: 1px solid #333333;
   border-bottom: 1px solid #333333;
   }
@@ -190,6 +209,9 @@ figure {
       text-decoration: none;
 	 
     @media (prefers-color-scheme: dark) {
+	  color: $dark;
+      }
+    @media (prefers-color-scheme: light) {
 	  color: $dark;
       }
 

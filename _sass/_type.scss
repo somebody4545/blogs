@@ -11,6 +11,9 @@ h1, h2, h3, h4, h5, h6 {
   @media (prefers-color-scheme: dark) {
     color: #d0f6db;
 	}
+  @media (prefers-color-scheme: light) {
+    color: #d0f6db;
+	}
 }
 
 h2::before,h4::before,h5::before,h6::before {
@@ -21,6 +24,9 @@ h2::before,h4::before,h5::before,h6::before {
 	position: absolute;
     
   @media (prefers-color-scheme: dark) {
+    color: #d0f6db;
+	}
+  @media (prefers-color-scheme: light) {
     color: #d0f6db;
 	}
 }
@@ -72,6 +78,10 @@ hr {
   border-top: 1px solid #333333;
   border-bottom: 1px solid #333333;
   }
+@media (prefers-color-scheme: light) {
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  }
 }
 
 abbr {
@@ -82,6 +92,9 @@ abbr {
   text-transform: uppercase;
 
 @media (prefers-color-scheme: dark) {
+  color: $body-color-dark;
+  }
+@media (prefers-color-scheme: light) {
   color: $body-color-dark;
   }
 
@@ -97,6 +110,9 @@ span.link-arrow {
 @media (prefers-color-scheme: dark) {
     color: $dark;
 	}
+@media (prefers-color-scheme: light) {
+    color: $dark;
+	}
 }
 
 blockquote {
@@ -109,6 +125,9 @@ blockquote {
   border-left: 3px solid #d4d4d4;
   
   @media (prefers-color-scheme: dark) {
+    border-left: 3px solid #333333;
+	}
+  @media (prefers-color-scheme: light) {
     border-left: 3px solid #333333;
 	}
 
@@ -135,6 +154,10 @@ mark {
     background: #0fb47c;
     color: $body-color-dark;
     }
+  @media (prefers-color-scheme: light) {
+    background: #0fb47c;
+    color: $body-color-dark;
+    }
 }
 
 // Footnote number within body text
@@ -152,6 +175,11 @@ a[href^="#fn:"] {
   vertical-align: middle;
   
 @media (prefers-color-scheme: dark) {
+    color: $dark;
+	background: #2c2c2c;
+	border: 1px solid #2c2c2c;
+	}
+@media (prefers-color-scheme: light) {
     color: $dark;
 	background: #2c2c2c;
 	border: 1px solid #2c2c2c;
@@ -177,6 +205,10 @@ a[href^="#fnref:"] {
     border: solid 1px $light;
 
 @media (prefers-color-scheme: dark) {
+	background: #2c2c2c;
+	border: solid 1px $dark;
+	}
+@media (prefers-color-scheme: light) {
 	background: #2c2c2c;
 	border: solid 1px $dark;
 	}

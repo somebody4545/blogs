@@ -17,6 +17,9 @@
 @media (prefers-color-scheme: dark) {
   border: solid #111111;
 }
+@media (prefers-color-scheme: light) {
+  border: solid #111111;
+}
 
   &:first-child {
     margin-bottom: -1px;
@@ -28,6 +31,9 @@ a.pagination-item:hover {
   background-color: #eee;
   
 @media (prefers-color-scheme: dark) {
+  background-color: #1e1e1e;
+  }
+@media (prefers-color-scheme: light) {
   background-color: #1e1e1e;
   }
 }

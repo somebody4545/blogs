@@ -13,6 +13,10 @@
     background-color: #212c2d;
 	color: $code-dark;
 	}
+@media (prefers-color-scheme: light) {
+    background-color: #212c2d;
+	color: $code-dark;
+	}
 }
 
 /* Applies to all code */
@@ -92,6 +96,9 @@ figure.highlight, div.highlight {
 		@media (prefers-color-scheme: dark) {
 		border: 1px solid $code-dark;
 		}
+        @media (prefers-color-scheme: light) {
+            border: 1px solid $code-dark;
+            }
 		
         code {
             background-color: $code-bg;
@@ -129,6 +136,10 @@ figure.highlight, div.highlight {
 				border: 1px solid $code-dark;
 				color: $code-dark;
 				}
+                @media (prefers-color-scheme: light) {
+                    border: 1px solid $code-dark;
+                    color: $code-dark;
+                }
 				
 				@mixin media-query($device) {
 				@media screen and (max-width: $device) {
