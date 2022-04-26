@@ -1,7 +1,7 @@
 # Setup
 title: "Somebody4545's Blog"
 tagline: funny python dev
-url: https://test.somebody4545.tk
+url: https://somebody4545.github.io/blogs/
 paginate: 1
 baseurl: ""
 permalink: :title/
